@@ -76,7 +76,7 @@ namespace revisionCardInput
             string[] files = e.Data.GetData(DataFormats.FileDrop) as string[]; // get all files droppeds  
             if (files != null && files.Any())
             {
-                textBox1.Text = files.First(); //select the first one  
+                textBox1.Text = files.First(); //select the first one  hi
             }
         }
 
